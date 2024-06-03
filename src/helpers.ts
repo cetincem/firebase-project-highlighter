@@ -1,7 +1,7 @@
 import * as vscode from 'vscode';
 import { exec } from 'child_process';
 
-function getFirebaseProjectName(): Promise<string> {
+export function getFirebaseProjectName(): Promise<string> {
     return new Promise((resolve, reject) => {
         exec('firebase use --json', (error, stdout, stderr) => {
             if (error) {
