@@ -18,8 +18,8 @@
   "contributes": {
     "commands": [
       {
-        "command": "firebase-project-highlighter.helloWorld",
-        "title": "Hello World"
+        "command": "extension.changeThemeBasedOnFirebaseProject",
+        "title": "Change Theme Based on Firebase Project"
       }
     ]
   },
